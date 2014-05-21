@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.weibotest.MainActivity"
+    tools:ignore="MergeRootFrame" >
+    
+    <ImageView
+        android:id="@+id/enterpic"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/enterpic" 
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/enterpic"/>
+</LinearLayout>
